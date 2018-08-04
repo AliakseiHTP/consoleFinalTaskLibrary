@@ -1,4 +1,4 @@
-package by.htp.dao.abstractClass;
+package by.htp.dao.abstractP;
 
 import static by.htp.dao.util.DBPropertyManager.getDBURL;
 import static by.htp.dao.util.DBPropertyManager.getLogin;
