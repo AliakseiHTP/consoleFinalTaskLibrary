@@ -1,4 +1,4 @@
-package by.htp.interfaceP;
+package by.htp.dao.interfaceP;
 
 import java.util.List;
 
