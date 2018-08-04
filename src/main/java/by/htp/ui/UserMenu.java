@@ -3,8 +3,8 @@ package by.htp.ui;
 import static by.htp.capabilities.Functionality.printListBook;
 import static by.htp.capabilities.Functionality.printBook;
 
-public class UserMenu extends BaseUI{
-	
+public class UserMenu extends BaseUI {
+
 	void showMenu() {
 		System.out.println("-------====Library menu====-------");
 		System.out.println("1. Browse a catalog of books");
@@ -13,6 +13,7 @@ public class UserMenu extends BaseUI{
 		System.out.println("-------====================-------");
 		nextStep();
 	}
+
 	private void nextStep() {
 		super.setChooseOperation(scanner.next());
 		switch (getChooseOperation()) {
@@ -35,7 +36,7 @@ public class UserMenu extends BaseUI{
 			showMenu();
 		}
 	}
-	
+
 	private int chooseBook() {
 		System.out.println("-------====Please enter id.====-------");
 		return scanner.nextInt();

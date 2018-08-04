@@ -20,7 +20,7 @@ public class Person {
 		this.phoneNumber = phoneNumber;
 		this.accessLevel = accessLevel;
 	}
-	
+
 	public int getIdlybrarycard() {
 		return id_librarycard;
 	}
@@ -60,7 +60,7 @@ public class Person {
 	public void setAccessLevel(int accessLevel) {
 		this.accessLevel = accessLevel;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Person [accessLevel=" + accessLevel + ", name=" + name + ", surname=" + surname + ", phoneNumber="

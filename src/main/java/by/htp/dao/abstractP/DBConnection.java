@@ -58,7 +58,7 @@ public abstract class DBConnection {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void execute() {
 		try {
 			preparedStatement.execute();

@@ -6,7 +6,6 @@ import by.htp.dao.abstractP.DBConnection;
 import by.htp.dao.interfaceP.ILogin;
 import by.htp.entity.Person;
 
-
 public class LoginDataBaseImpl extends DBConnection implements ILogin {
 	private static final String SELECT_LOGIN = "SELECT* FROM loginpasstable JOIN librarycard "
 			+ "ON loginpasstable.id_librarycard = librarycard.id_librarycard WHERE login=? AND password=?";

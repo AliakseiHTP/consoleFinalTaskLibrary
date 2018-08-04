@@ -10,7 +10,7 @@ public class Login {
 	public Person authorization(String login, String password) {
 		LoginDataBaseImpl authorizationDao = new LoginDataBaseImpl();
 		Person person = authorizationDao.getAutorizatePerson(login, password);
-		if(person!=null) {
+		if (person != null) {
 			sendMessage(WELCOME_MESSAGE);
 			return person;
 		}

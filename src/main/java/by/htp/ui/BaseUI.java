@@ -11,8 +11,7 @@ public abstract class BaseUI {
 	protected UserMenu userMenu;
 	protected LibrarianMenu librarianMenu;
 	protected SubMenu subMenu;
-	
-	
+
 	public BaseUI() {
 		scanner = new Scanner(System.in);
 	}
